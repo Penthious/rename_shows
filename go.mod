@@ -1,4 +1,4 @@
-module rename_shows
+module github.com/Penthious/rename_shows
 
 go 1.15
 
