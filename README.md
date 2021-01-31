@@ -18,3 +18,10 @@ The project assumes your folder structure consists of a root parent, followed by
 `go run . -path="/path/to/your/shows/directory"`
 
 Prompt will ask for you to input a show name, IE: rick and morty (this name should match what your folder name is that contains all of your rick and morty shows)
+
+
+## Compile
+Windows: `env GOOS=windows go build -o rename_shows.exe`\
+Linux: `go build -o rename_shows`
+
+running compiled on windows: `./rename_shows.exe -path="/path/to/shows"`
